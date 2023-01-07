@@ -1,0 +1,68 @@
+.Inputs-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+input {
+  margin: 7px;
+  padding: 3px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+  transition: padding 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  padding: 7px;
+}
+
+select {
+  margin-left: 7px;
+}
+
+input[type="submit"] {
+  background-color: #d4145a;
+  transition: background-color 0.7s;
+  outline: none;
+  border: none;
+  padding: 11px;
+  color: white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #d84d80;
+}
+
+input[type="submit"]:active {
+  background-color: #8e0a8b;
+  transition: background-color 0s;
+}
+.viewDataBtn {
+  background-color: #0bc524;
+  transition: background-color 0.7s;
+  outline: none;
+  border: none;
+  padding: 11px;
+  color: white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.viewDataBtn:hover {
+  background-color: #34e74c;
+}
+
+.viewDataBtn:active {
+  background-color: #067e16;
+  transition: background-color 0s;
+}
